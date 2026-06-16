@@ -1,0 +1,2 @@
+# No external dependencies — uses Python built-in math module only.
+# Requires Python 3.6+

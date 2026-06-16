@@ -1,8 +1,8 @@
 import math
 
 
-def set_robot(theta1, theta2, l1, l2):
-    """Collect joint angles (degrees) and link lengths, return end-effector (x, y)."""
+def set_robot(theta1: float, theta2: float, l1: float, l2: float) -> tuple[float, float]:
+    """Return end-effector (x, y) for a 2-joint planar arm given angles in degrees and link lengths."""
     t1 = math.radians(theta1)
     t2 = math.radians(theta2)
 
